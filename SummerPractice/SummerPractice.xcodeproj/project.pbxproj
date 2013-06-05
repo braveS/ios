@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8176377158DBEB900B9672B /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8176375158DBD5800B9672B /* libCorePlot-CocoaTouch.a */; };
+		D8176388158DC91200B9672B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8176387158DC91200B9672B /* QuartzCore.framework */; };
+		D817638A158DD9CC00B9672B /* buildGraph.png in Resources */ = {isa = PBXBuildFile; fileRef = D8176389158DD9CC00B9672B /* buildGraph.png */; };
+		D817638E158DDFC800B9672B /* taskImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D817638D158DDFC800B9672B /* taskImage.png */; };
+		D817639C158E017D00B9672B /* SPCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = D817639B158E017D00B9672B /* SPCalculatorBrain.m */; };
+		D81763A3158E08E200B9672B /* sqrt.png in Resources */ = {isa = PBXBuildFile; fileRef = D81763A2158E08E200B9672B /* sqrt.png */; };
+		D82033FB158E7F8E0034367A /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = D82033FA158E7F8E0034367A /* gallery.png */; };
+		D8203400158E80B90034367A /* SPGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82033FE158E80B90034367A /* SPGalleryViewController.m */; };
+		D8203401158E80B90034367A /* SPGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82033FF158E80B90034367A /* SPGalleryViewController.xib */; };
+		D8203403158E824E0034367A /* choose.png in Resources */ = {isa = PBXBuildFile; fileRef = D8203402158E824E0034367A /* choose.png */; };
+		D8203405158E94280034367A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8203404158E94280034367A /* MobileCoreServices.framework */; };
+		D8D7F8A7158C8B34008ADA4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D7F8A6158C8B34008ADA4E /* UIKit.framework */; };
+		D8D7F8A9158C8B34008ADA4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D7F8A8158C8B34008ADA4E /* Foundation.framework */; };
+		D8D7F8AB158C8B34008ADA4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D7F8AA158C8B34008ADA4E /* CoreGraphics.framework */; };
+		D8D7F8B1158C8B34008ADA4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8AF158C8B34008ADA4E /* InfoPlist.strings */; };
+		D8D7F8B3158C8B35008ADA4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8B2158C8B35008ADA4E /* main.m */; };
+		D8D7F8B7158C8B35008ADA4E /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8B6158C8B35008ADA4E /* SPAppDelegate.m */; };
+		D8D7F8BA158C8B35008ADA4E /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8B9158C8B35008ADA4E /* SPViewController.m */; };
+		D8D7F8BD158C8B35008ADA4E /* SPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8BB158C8B35008ADA4E /* SPViewController.xib */; };
+		D8D7F8CA158C8C96008ADA4E /* naboo-landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8C9158C8C96008ADA4E /* naboo-landscape.jpg */; };
+		D8D7F8D0158C8E55008ADA4E /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8CB158C8E55008ADA4E /* calculator.png */; };
+		D8D7F8D1158C8E55008ADA4E /* clipboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8CC158C8E55008ADA4E /* clipboard.png */; };
+		D8D7F8D2158C8E55008ADA4E /* graphic.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8CD158C8E55008ADA4E /* graphic.png */; };
+		D8D7F8D3158C8E55008ADA4E /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8CE158C8E55008ADA4E /* info.png */; };
+		D8D7F8D4158C8E55008ADA4E /* language.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8CF158C8E55008ADA4E /* language.png */; };
+		D8D7F8D8158C9A1F008ADA4E /* SPComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8D6158C9A1F008ADA4E /* SPComponentViewController.m */; };
+		D8D7F8D9158C9A1F008ADA4E /* SPComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8D7158C9A1F008ADA4E /* SPComponentViewController.xib */; };
+		D8D7F8E0158C9A4F008ADA4E /* Coruscant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8DB158C9A4F008ADA4E /* Coruscant.jpg */; };
+		D8D7F8E1158C9A4F008ADA4E /* death-star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8DC158C9A4F008ADA4E /* death-star.jpg */; };
+		D8D7F8E2158C9A4F008ADA4E /* ship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8DD158C9A4F008ADA4E /* ship.jpg */; };
+		D8D7F8E3158C9A4F008ADA4E /* war.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8DE158C9A4F008ADA4E /* war.jpg */; };
+		D8D7F8E6158C9BD3008ADA4E /* SPCustomCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8E5158C9BD3008ADA4E /* SPCustomCellViewController.m */; };
+		D8D7F8EA158C9D3A008ADA4E /* SPCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8E8158C9D3A008ADA4E /* SPCalculatorViewController.m */; };
+		D8D7F8EB158C9D3A008ADA4E /* SPCalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8E9158C9D3A008ADA4E /* SPCalculatorViewController.xib */; };
+		D8D7F8EF158C9D97008ADA4E /* SPClipboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8ED158C9D97008ADA4E /* SPClipboardViewController.m */; };
+		D8D7F8F0158C9D97008ADA4E /* SPClipboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8EE158C9D97008ADA4E /* SPClipboardViewController.xib */; };
+		D8D7F8F4158C9F03008ADA4E /* SPGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8F2158C9F03008ADA4E /* SPGraphViewController.m */; };
+		D8D7F8F5158C9F03008ADA4E /* SPGraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8F3158C9F03008ADA4E /* SPGraphViewController.xib */; };
+		D8D7F8F7158C9FE3008ADA4E /* clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8F6158C9FE3008ADA4E /* clouds.jpg */; };
+		D8D7F8FC158CA040008ADA4E /* SPInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F8FA158CA040008ADA4E /* SPInfoViewController.m */; };
+		D8D7F8FD158CA040008ADA4E /* SPInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F8FB158CA040008ADA4E /* SPInfoViewController.xib */; };
+		D8D7F903158CA1F7008ADA4E /* g+.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F902158CA1F7008ADA4E /* g+.png */; };
+		D8D7F918158CA4DC008ADA4E /* -.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F905158CA4DC008ADA4E /* -.png */; };
+		D8D7F919158CA4DC008ADA4E /* *.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F906158CA4DC008ADA4E /* *.png */; };
+		D8D7F91A158CA4DC008ADA4E /* *:.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F907158CA4DC008ADA4E /* *:.png */; };
+		D8D7F91B158CA4DC008ADA4E /* =.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F908158CA4DC008ADA4E /* =.png */; };
+		D8D7F91C158CA4DC008ADA4E /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F909158CA4DC008ADA4E /* 0.png */; };
+		D8D7F91D158CA4DC008ADA4E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F90A158CA4DC008ADA4E /* 1.png */; };
+		D8D7F91E158CA4DC008ADA4E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F90B158CA4DC008ADA4E /* 2.png */; };
+		D8D7F91F158CA4DC008ADA4E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F90C158CA4DC008ADA4E /* 3.png */; };
+		D8D7F920158CA4DC008ADA4E /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F90D158CA4DC008ADA4E /* 4.png */; };
+		D8D7F921158CA4DC008ADA4E /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F90E158CA4DC008ADA4E /* 5.png */; };
+		D8D7F922158CA4DC008ADA4E /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F90F158CA4DC008ADA4E /* 6.png */; };
+		D8D7F923158CA4DC008ADA4E /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F910158CA4DC008ADA4E /* 7.png */; };
+		D8D7F924158CA4DC008ADA4E /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F911158CA4DC008ADA4E /* 8.png */; };
+		D8D7F925158CA4DC008ADA4E /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F912158CA4DC008ADA4E /* 9.png */; };
+		D8D7F926158CA4DC008ADA4E /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F913158CA4DC008ADA4E /* c.png */; };
+		D8D7F927158CA4DC008ADA4E /* coma.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F914158CA4DC008ADA4E /* coma.png */; };
+		D8D7F928158CA4DC008ADA4E /* ctg.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F915158CA4DC008ADA4E /* ctg.png */; };
+		D8D7F929158CA4DC008ADA4E /* tg.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F916158CA4DC008ADA4E /* tg.png */; };
+		D8D7F92C158CA7CD008ADA4E /* darth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F92B158CA7CD008ADA4E /* darth.jpg */; };
+		D8D7F92E158CA977008ADA4E /* paste.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F92D158CA976008ADA4E /* paste.png */; };
+		D8D7F930158CA9A3008ADA4E /* copy.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F92F158CA9A3008ADA4E /* copy.png */; };
+		D8D7F932158CAB0F008ADA4E /* dialogCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F931158CAB0F008ADA4E /* dialogCloud.png */; };
+		D8D7F937158CAE1A008ADA4E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F936158CAE1A008ADA4E /* icon.png */; };
+		D8D7F947158CD536008ADA4E /* SPCustomCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F946158CD536008ADA4E /* SPCustomCellViewController.xib */; };
+		D8D7F94C158CD74D008ADA4E /* germany.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F949158CD74D008ADA4E /* germany.png */; };
+		D8D7F94D158CD74D008ADA4E /* russia.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F94A158CD74D008ADA4E /* russia.png */; };
+		D8D7F94E158CD74D008ADA4E /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F94B158CD74D008ADA4E /* usa.png */; };
+		D8D7F953158CD935008ADA4E /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7F952158CD935008ADA4E /* check.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8176374158DBD5800B9672B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D817636B158DBD5800B9672B /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		D8176385158DC70600B9672B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D817636B158DBD5800B9672B /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D817636B158DBD5800B9672B /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "../../../../core-plot/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		D8176387158DC91200B9672B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8176389158DD9CC00B9672B /* buildGraph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buildGraph.png; sourceTree = "<group>"; };
+		D817638D158DDFC800B9672B /* taskImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taskImage.png; sourceTree = "<group>"; };
+		D817639A158E017D00B9672B /* SPCalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCalculatorBrain.h; sourceTree = "<group>"; };
+		D817639B158E017D00B9672B /* SPCalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCalculatorBrain.m; sourceTree = "<group>"; };
+		D81763A2158E08E200B9672B /* sqrt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sqrt.png; sourceTree = "<group>"; };
+		D82033FA158E7F8E0034367A /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
+		D82033FD158E80B90034367A /* SPGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGalleryViewController.h; sourceTree = "<group>"; };
+		D82033FE158E80B90034367A /* SPGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGalleryViewController.m; sourceTree = "<group>"; };
+		D82033FF158E80B90034367A /* SPGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPGalleryViewController.xib; sourceTree = "<group>"; };
+		D8203402158E824E0034367A /* choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choose.png; sourceTree = "<group>"; };
+		D8203404158E94280034367A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D8D7F8A2158C8B34008ADA4E /* SummerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D7F8A6158C8B34008ADA4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8D7F8A8158C8B34008ADA4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8D7F8AA158C8B34008ADA4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8D7F8AE158C8B34008ADA4E /* SummerPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SummerPractice-Info.plist"; sourceTree = "<group>"; };
+		D8D7F8B0158C8B34008ADA4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8D7F8B2158C8B35008ADA4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D7F8B4158C8B35008ADA4E /* SummerPractice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SummerPractice-Prefix.pch"; sourceTree = "<group>"; };
+		D8D7F8B5158C8B35008ADA4E /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		D8D7F8B6158C8B35008ADA4E /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		D8D7F8B8158C8B35008ADA4E /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		D8D7F8B9158C8B35008ADA4E /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		D8D7F8BC158C8B35008ADA4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPViewController.xib; sourceTree = "<group>"; };
+		D8D7F8C9158C8C96008ADA4E /* naboo-landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "naboo-landscape.jpg"; sourceTree = "<group>"; };
+		D8D7F8CB158C8E55008ADA4E /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		D8D7F8CC158C8E55008ADA4E /* clipboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard.png; sourceTree = "<group>"; };
+		D8D7F8CD158C8E55008ADA4E /* graphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graphic.png; sourceTree = "<group>"; };
+		D8D7F8CE158C8E55008ADA4E /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		D8D7F8CF158C8E55008ADA4E /* language.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = language.png; sourceTree = "<group>"; };
+		D8D7F8D5158C9A1F008ADA4E /* SPComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPComponentViewController.h; sourceTree = "<group>"; };
+		D8D7F8D6158C9A1F008ADA4E /* SPComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPComponentViewController.m; sourceTree = "<group>"; };
+		D8D7F8D7158C9A1F008ADA4E /* SPComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPComponentViewController.xib; sourceTree = "<group>"; };
+		D8D7F8DB158C9A4F008ADA4E /* Coruscant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Coruscant.jpg; sourceTree = "<group>"; };
+		D8D7F8DC158C9A4F008ADA4E /* death-star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "death-star.jpg"; sourceTree = "<group>"; };
+		D8D7F8DD158C9A4F008ADA4E /* ship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ship.jpg; sourceTree = "<group>"; };
+		D8D7F8DE158C9A4F008ADA4E /* war.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = war.jpg; sourceTree = "<group>"; };
+		D8D7F8E4158C9BD3008ADA4E /* SPCustomCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCustomCellViewController.h; sourceTree = "<group>"; };
+		D8D7F8E5158C9BD3008ADA4E /* SPCustomCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCustomCellViewController.m; sourceTree = "<group>"; };
+		D8D7F8E7158C9D3A008ADA4E /* SPCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCalculatorViewController.h; sourceTree = "<group>"; };
+		D8D7F8E8158C9D3A008ADA4E /* SPCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCalculatorViewController.m; sourceTree = "<group>"; };
+		D8D7F8E9158C9D3A008ADA4E /* SPCalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPCalculatorViewController.xib; sourceTree = "<group>"; };
+		D8D7F8EC158C9D97008ADA4E /* SPClipboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPClipboardViewController.h; sourceTree = "<group>"; };
+		D8D7F8ED158C9D97008ADA4E /* SPClipboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPClipboardViewController.m; sourceTree = "<group>"; };
+		D8D7F8EE158C9D97008ADA4E /* SPClipboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPClipboardViewController.xib; sourceTree = "<group>"; };
+		D8D7F8F1158C9F03008ADA4E /* SPGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGraphViewController.h; sourceTree = "<group>"; };
+		D8D7F8F2158C9F03008ADA4E /* SPGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGraphViewController.m; sourceTree = "<group>"; };
+		D8D7F8F3158C9F03008ADA4E /* SPGraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPGraphViewController.xib; sourceTree = "<group>"; };
+		D8D7F8F6158C9FE3008ADA4E /* clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpg; sourceTree = "<group>"; };
+		D8D7F8F9158CA040008ADA4E /* SPInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPInfoViewController.h; sourceTree = "<group>"; };
+		D8D7F8FA158CA040008ADA4E /* SPInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPInfoViewController.m; sourceTree = "<group>"; };
+		D8D7F8FB158CA040008ADA4E /* SPInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPInfoViewController.xib; sourceTree = "<group>"; };
+		D8D7F902158CA1F7008ADA4E /* g+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g+.png"; sourceTree = "<group>"; };
+		D8D7F905158CA4DC008ADA4E /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
+		D8D7F906158CA4DC008ADA4E /* *.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "*.png"; sourceTree = "<group>"; };
+		D8D7F907158CA4DC008ADA4E /* *:.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "*:.png"; sourceTree = "<group>"; };
+		D8D7F908158CA4DC008ADA4E /* =.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "=.png"; sourceTree = "<group>"; };
+		D8D7F909158CA4DC008ADA4E /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		D8D7F90A158CA4DC008ADA4E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D8D7F90B158CA4DC008ADA4E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D8D7F90C158CA4DC008ADA4E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D8D7F90D158CA4DC008ADA4E /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		D8D7F90E158CA4DC008ADA4E /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		D8D7F90F158CA4DC008ADA4E /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		D8D7F910158CA4DC008ADA4E /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		D8D7F911158CA4DC008ADA4E /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		D8D7F912158CA4DC008ADA4E /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		D8D7F913158CA4DC008ADA4E /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		D8D7F914158CA4DC008ADA4E /* coma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coma.png; sourceTree = "<group>"; };
+		D8D7F915158CA4DC008ADA4E /* ctg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctg.png; sourceTree = "<group>"; };
+		D8D7F916158CA4DC008ADA4E /* tg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tg.png; sourceTree = "<group>"; };
+		D8D7F92B158CA7CD008ADA4E /* darth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darth.jpg; sourceTree = "<group>"; };
+		D8D7F92D158CA976008ADA4E /* paste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paste.png; sourceTree = "<group>"; };
+		D8D7F92F158CA9A3008ADA4E /* copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copy.png; sourceTree = "<group>"; };
+		D8D7F931158CAB0F008ADA4E /* dialogCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialogCloud.png; sourceTree = "<group>"; };
+		D8D7F936158CAE1A008ADA4E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		D8D7F946158CD536008ADA4E /* SPCustomCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPCustomCellViewController.xib; sourceTree = "<group>"; };
+		D8D7F949158CD74D008ADA4E /* germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = germany.png; sourceTree = "<group>"; };
+		D8D7F94A158CD74D008ADA4E /* russia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = russia.png; sourceTree = "<group>"; };
+		D8D7F94B158CD74D008ADA4E /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
+		D8D7F952158CD935008ADA4E /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D7F89F158C8B34008ADA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8203405158E94280034367A /* MobileCoreServices.framework in Frameworks */,
+				D8176388158DC91200B9672B /* QuartzCore.framework in Frameworks */,
+				D8D7F8A7158C8B34008ADA4E /* UIKit.framework in Frameworks */,
+				D8D7F8A9158C8B34008ADA4E /* Foundation.framework in Frameworks */,
+				D8D7F8AB158C8B34008ADA4E /* CoreGraphics.framework in Frameworks */,
+				D8176377158DBEB900B9672B /* libCorePlot-CocoaTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D817636C158DBD5800B9672B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8176375158DBD5800B9672B /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82033FC158E808E0034367A /* SPGallery */ = {
+			isa = PBXGroup;
+			children = (
+				D82033FD158E80B90034367A /* SPGalleryViewController.h */,
+				D82033FE158E80B90034367A /* SPGalleryViewController.m */,
+				D82033FF158E80B90034367A /* SPGalleryViewController.xib */,
+			);
+			name = SPGallery;
+			sourceTree = "<group>";
+		};
+		D8D7F897158C8B34008ADA4E = {
+			isa = PBXGroup;
+			children = (
+				D817636B158DBD5800B9672B /* CorePlot-CocoaTouch.xcodeproj */,
+				D8D7F8AC158C8B34008ADA4E /* SummerPractice */,
+				D8D7F8A5158C8B34008ADA4E /* Frameworks */,
+				D8D7F8A3158C8B34008ADA4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D7F8A3158C8B34008ADA4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8A2158C8B34008ADA4E /* SummerPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D7F8A5158C8B34008ADA4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8203404158E94280034367A /* MobileCoreServices.framework */,
+				D8176387158DC91200B9672B /* QuartzCore.framework */,
+				D8D7F8A6158C8B34008ADA4E /* UIKit.framework */,
+				D8D7F8A8158C8B34008ADA4E /* Foundation.framework */,
+				D8D7F8AA158C8B34008ADA4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8D7F8AC158C8B34008ADA4E /* SummerPractice */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8C4158C8C27008ADA4E /* SPmain */,
+				D82033FC158E808E0034367A /* SPGallery */,
+				D8D7F8C5158C8C3B008ADA4E /* SPcalculator */,
+				D8D7F8C8158C8C63008ADA4E /* SPclipboard */,
+				D8D7F8C7158C8C56008ADA4E /* SPgraph */,
+				D8D7F8C6158C8C44008ADA4E /* SPcomponent */,
+				D8D7F8F8158CA02E008ADA4E /* SPinfo */,
+				D8D7F933158CAC17008ADA4E /* SPHelper */,
+				D8D7F8AD158C8B34008ADA4E /* Supporting Files */,
+			);
+			path = SummerPractice;
+			sourceTree = "<group>";
+		};
+		D8D7F8AD158C8B34008ADA4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8C3158C8C1F008ADA4E /* images */,
+				D8D7F8AE158C8B34008ADA4E /* SummerPractice-Info.plist */,
+				D8D7F8AF158C8B34008ADA4E /* InfoPlist.strings */,
+				D8D7F8B2158C8B35008ADA4E /* main.m */,
+				D8D7F8B4158C8B35008ADA4E /* SummerPractice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8D7F8C3158C8C1F008ADA4E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D8203402158E824E0034367A /* choose.png */,
+				D82033FA158E7F8E0034367A /* gallery.png */,
+				D817638D158DDFC800B9672B /* taskImage.png */,
+				D8176389158DD9CC00B9672B /* buildGraph.png */,
+				D8D7F948158CD5A7008ADA4E /* flags */,
+				D8D7F904158CA4C3008ADA4E /* calc */,
+				D8D7F936158CAE1A008ADA4E /* icon.png */,
+				D8D7F931158CAB0F008ADA4E /* dialogCloud.png */,
+				D8D7F92F158CA9A3008ADA4E /* copy.png */,
+				D8D7F92D158CA976008ADA4E /* paste.png */,
+				D8D7F92B158CA7CD008ADA4E /* darth.jpg */,
+				D8D7F902158CA1F7008ADA4E /* g+.png */,
+				D8D7F8F6158C9FE3008ADA4E /* clouds.jpg */,
+				D8D7F8DB158C9A4F008ADA4E /* Coruscant.jpg */,
+				D8D7F8DC158C9A4F008ADA4E /* death-star.jpg */,
+				D8D7F8DD158C9A4F008ADA4E /* ship.jpg */,
+				D8D7F8DE158C9A4F008ADA4E /* war.jpg */,
+				D8D7F8CB158C8E55008ADA4E /* calculator.png */,
+				D8D7F8CC158C8E55008ADA4E /* clipboard.png */,
+				D8D7F8CD158C8E55008ADA4E /* graphic.png */,
+				D8D7F8CE158C8E55008ADA4E /* info.png */,
+				D8D7F8CF158C8E55008ADA4E /* language.png */,
+				D8D7F8C9158C8C96008ADA4E /* naboo-landscape.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		D8D7F8C4158C8C27008ADA4E /* SPmain */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8B5158C8B35008ADA4E /* SPAppDelegate.h */,
+				D8D7F8B6158C8B35008ADA4E /* SPAppDelegate.m */,
+				D8D7F8B8158C8B35008ADA4E /* SPViewController.h */,
+				D8D7F8B9158C8B35008ADA4E /* SPViewController.m */,
+				D8D7F8BB158C8B35008ADA4E /* SPViewController.xib */,
+			);
+			name = SPmain;
+			sourceTree = "<group>";
+		};
+		D8D7F8C5158C8C3B008ADA4E /* SPcalculator */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8E7158C9D3A008ADA4E /* SPCalculatorViewController.h */,
+				D8D7F8E8158C9D3A008ADA4E /* SPCalculatorViewController.m */,
+				D8D7F8E9158C9D3A008ADA4E /* SPCalculatorViewController.xib */,
+				D817639A158E017D00B9672B /* SPCalculatorBrain.h */,
+				D817639B158E017D00B9672B /* SPCalculatorBrain.m */,
+			);
+			name = SPcalculator;
+			sourceTree = "<group>";
+		};
+		D8D7F8C6158C8C44008ADA4E /* SPcomponent */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8D5158C9A1F008ADA4E /* SPComponentViewController.h */,
+				D8D7F8D6158C9A1F008ADA4E /* SPComponentViewController.m */,
+				D8D7F8D7158C9A1F008ADA4E /* SPComponentViewController.xib */,
+				D8D7F8E4158C9BD3008ADA4E /* SPCustomCellViewController.h */,
+				D8D7F8E5158C9BD3008ADA4E /* SPCustomCellViewController.m */,
+				D8D7F946158CD536008ADA4E /* SPCustomCellViewController.xib */,
+			);
+			name = SPcomponent;
+			sourceTree = "<group>";
+		};
+		D8D7F8C7158C8C56008ADA4E /* SPgraph */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8F1158C9F03008ADA4E /* SPGraphViewController.h */,
+				D8D7F8F2158C9F03008ADA4E /* SPGraphViewController.m */,
+				D8D7F8F3158C9F03008ADA4E /* SPGraphViewController.xib */,
+			);
+			name = SPgraph;
+			sourceTree = "<group>";
+		};
+		D8D7F8C8158C8C63008ADA4E /* SPclipboard */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8EC158C9D97008ADA4E /* SPClipboardViewController.h */,
+				D8D7F8ED158C9D97008ADA4E /* SPClipboardViewController.m */,
+				D8D7F8EE158C9D97008ADA4E /* SPClipboardViewController.xib */,
+			);
+			name = SPclipboard;
+			sourceTree = "<group>";
+		};
+		D8D7F8F8158CA02E008ADA4E /* SPinfo */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F8F9158CA040008ADA4E /* SPInfoViewController.h */,
+				D8D7F8FA158CA040008ADA4E /* SPInfoViewController.m */,
+				D8D7F8FB158CA040008ADA4E /* SPInfoViewController.xib */,
+			);
+			name = SPinfo;
+			sourceTree = "<group>";
+		};
+		D8D7F904158CA4C3008ADA4E /* calc */ = {
+			isa = PBXGroup;
+			children = (
+				D81763A2158E08E200B9672B /* sqrt.png */,
+				D8D7F905158CA4DC008ADA4E /* -.png */,
+				D8D7F906158CA4DC008ADA4E /* *.png */,
+				D8D7F907158CA4DC008ADA4E /* *:.png */,
+				D8D7F908158CA4DC008ADA4E /* =.png */,
+				D8D7F909158CA4DC008ADA4E /* 0.png */,
+				D8D7F90A158CA4DC008ADA4E /* 1.png */,
+				D8D7F90B158CA4DC008ADA4E /* 2.png */,
+				D8D7F90C158CA4DC008ADA4E /* 3.png */,
+				D8D7F90D158CA4DC008ADA4E /* 4.png */,
+				D8D7F90E158CA4DC008ADA4E /* 5.png */,
+				D8D7F90F158CA4DC008ADA4E /* 6.png */,
+				D8D7F910158CA4DC008ADA4E /* 7.png */,
+				D8D7F911158CA4DC008ADA4E /* 8.png */,
+				D8D7F912158CA4DC008ADA4E /* 9.png */,
+				D8D7F913158CA4DC008ADA4E /* c.png */,
+				D8D7F914158CA4DC008ADA4E /* coma.png */,
+				D8D7F915158CA4DC008ADA4E /* ctg.png */,
+				D8D7F916158CA4DC008ADA4E /* tg.png */,
+			);
+			name = calc;
+			sourceTree = "<group>";
+		};
+		D8D7F933158CAC17008ADA4E /* SPHelper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SPHelper;
+			sourceTree = "<group>";
+		};
+		D8D7F948158CD5A7008ADA4E /* flags */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F952158CD935008ADA4E /* check.png */,
+				D8D7F949158CD74D008ADA4E /* germany.png */,
+				D8D7F94A158CD74D008ADA4E /* russia.png */,
+				D8D7F94B158CD74D008ADA4E /* usa.png */,
+			);
+			name = flags;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D7F8A1158C8B34008ADA4E /* SummerPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D7F8C0158C8B35008ADA4E /* Build configuration list for PBXNativeTarget "SummerPractice" */;
+			buildPhases = (
+				D8D7F89E158C8B34008ADA4E /* Sources */,
+				D8D7F89F158C8B34008ADA4E /* Frameworks */,
+				D8D7F8A0158C8B34008ADA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8176386158DC70600B9672B /* PBXTargetDependency */,
+			);
+			name = SummerPractice;
+			productName = SummerPractice;
+			productReference = D8D7F8A2158C8B34008ADA4E /* SummerPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D7F899158C8B34008ADA4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D8D7F89C158C8B34008ADA4E /* Build configuration list for PBXProject "SummerPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8D7F897158C8B34008ADA4E;
+			productRefGroup = D8D7F8A3158C8B34008ADA4E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D817636C158DBD5800B9672B /* Products */;
+					ProjectRef = D817636B158DBD5800B9672B /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D8D7F8A1158C8B34008ADA4E /* SummerPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D8176375158DBD5800B9672B /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = D8176374158DBD5800B9672B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D7F8A0158C8B34008ADA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D7F8B1158C8B34008ADA4E /* InfoPlist.strings in Resources */,
+				D8D7F8BD158C8B35008ADA4E /* SPViewController.xib in Resources */,
+				D8D7F8CA158C8C96008ADA4E /* naboo-landscape.jpg in Resources */,
+				D8D7F8D0158C8E55008ADA4E /* calculator.png in Resources */,
+				D8D7F8D1158C8E55008ADA4E /* clipboard.png in Resources */,
+				D8D7F8D2158C8E55008ADA4E /* graphic.png in Resources */,
+				D8D7F8D3158C8E55008ADA4E /* info.png in Resources */,
+				D8D7F8D4158C8E55008ADA4E /* language.png in Resources */,
+				D8D7F8D9158C9A1F008ADA4E /* SPComponentViewController.xib in Resources */,
+				D8D7F8E0158C9A4F008ADA4E /* Coruscant.jpg in Resources */,
+				D8D7F8E1158C9A4F008ADA4E /* death-star.jpg in Resources */,
+				D8D7F8E2158C9A4F008ADA4E /* ship.jpg in Resources */,
+				D8D7F8E3158C9A4F008ADA4E /* war.jpg in Resources */,
+				D8D7F8EB158C9D3A008ADA4E /* SPCalculatorViewController.xib in Resources */,
+				D8D7F8F0158C9D97008ADA4E /* SPClipboardViewController.xib in Resources */,
+				D8D7F8F5158C9F03008ADA4E /* SPGraphViewController.xib in Resources */,
+				D8D7F8F7158C9FE3008ADA4E /* clouds.jpg in Resources */,
+				D8D7F8FD158CA040008ADA4E /* SPInfoViewController.xib in Resources */,
+				D8D7F903158CA1F7008ADA4E /* g+.png in Resources */,
+				D8D7F918158CA4DC008ADA4E /* -.png in Resources */,
+				D8D7F919158CA4DC008ADA4E /* *.png in Resources */,
+				D8D7F91A158CA4DC008ADA4E /* *:.png in Resources */,
+				D8D7F91B158CA4DC008ADA4E /* =.png in Resources */,
+				D8D7F91C158CA4DC008ADA4E /* 0.png in Resources */,
+				D8D7F91D158CA4DC008ADA4E /* 1.png in Resources */,
+				D8D7F91E158CA4DC008ADA4E /* 2.png in Resources */,
+				D8D7F91F158CA4DC008ADA4E /* 3.png in Resources */,
+				D8D7F920158CA4DC008ADA4E /* 4.png in Resources */,
+				D8D7F921158CA4DC008ADA4E /* 5.png in Resources */,
+				D8D7F922158CA4DC008ADA4E /* 6.png in Resources */,
+				D8D7F923158CA4DC008ADA4E /* 7.png in Resources */,
+				D8D7F924158CA4DC008ADA4E /* 8.png in Resources */,
+				D8D7F925158CA4DC008ADA4E /* 9.png in Resources */,
+				D8D7F926158CA4DC008ADA4E /* c.png in Resources */,
+				D8D7F927158CA4DC008ADA4E /* coma.png in Resources */,
+				D8D7F928158CA4DC008ADA4E /* ctg.png in Resources */,
+				D8D7F929158CA4DC008ADA4E /* tg.png in Resources */,
+				D8D7F92C158CA7CD008ADA4E /* darth.jpg in Resources */,
+				D8D7F92E158CA977008ADA4E /* paste.png in Resources */,
+				D8D7F930158CA9A3008ADA4E /* copy.png in Resources */,
+				D8D7F932158CAB0F008ADA4E /* dialogCloud.png in Resources */,
+				D8D7F937158CAE1A008ADA4E /* icon.png in Resources */,
+				D8D7F947158CD536008ADA4E /* SPCustomCellViewController.xib in Resources */,
+				D8D7F94C158CD74D008ADA4E /* germany.png in Resources */,
+				D8D7F94D158CD74D008ADA4E /* russia.png in Resources */,
+				D8D7F94E158CD74D008ADA4E /* usa.png in Resources */,
+				D8D7F953158CD935008ADA4E /* check.png in Resources */,
+				D817638A158DD9CC00B9672B /* buildGraph.png in Resources */,
+				D817638E158DDFC800B9672B /* taskImage.png in Resources */,
+				D81763A3158E08E200B9672B /* sqrt.png in Resources */,
+				D82033FB158E7F8E0034367A /* gallery.png in Resources */,
+				D8203401158E80B90034367A /* SPGalleryViewController.xib in Resources */,
+				D8203403158E824E0034367A /* choose.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D7F89E158C8B34008ADA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D7F8B3158C8B35008ADA4E /* main.m in Sources */,
+				D8D7F8B7158C8B35008ADA4E /* SPAppDelegate.m in Sources */,
+				D8D7F8BA158C8B35008ADA4E /* SPViewController.m in Sources */,
+				D8D7F8D8158C9A1F008ADA4E /* SPComponentViewController.m in Sources */,
+				D8D7F8E6158C9BD3008ADA4E /* SPCustomCellViewController.m in Sources */,
+				D8D7F8EA158C9D3A008ADA4E /* SPCalculatorViewController.m in Sources */,
+				D8D7F8EF158C9D97008ADA4E /* SPClipboardViewController.m in Sources */,
+				D8D7F8F4158C9F03008ADA4E /* SPGraphViewController.m in Sources */,
+				D8D7F8FC158CA040008ADA4E /* SPInfoViewController.m in Sources */,
+				D817639C158E017D00B9672B /* SPCalculatorBrain.m in Sources */,
+				D8203400158E80B90034367A /* SPGalleryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8176386158DC70600B9672B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = D8176385158DC70600B9672B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8D7F8AF158C8B34008ADA4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D7F8B0158C8B34008ADA4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8D7F8BB158C8B35008ADA4E /* SPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D7F8BC158C8B35008ADA4E /* en */,
+			);
+			name = SPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8D7F8BE158C8B35008ADA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D8D7F8BF158C8B35008ADA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D7F8C1158C8B35008ADA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SummerPractice/SummerPractice-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/kobets/core-plot/framework/**";
+				INFOPLIST_FILE = "SummerPractice/SummerPractice-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8D7F8C2158C8B35008ADA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SummerPractice/SummerPractice-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/kobets/core-plot/framework/**";
+				INFOPLIST_FILE = "SummerPractice/SummerPractice-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D7F89C158C8B34008ADA4E /* Build configuration list for PBXProject "SummerPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D7F8BE158C8B35008ADA4E /* Debug */,
+				D8D7F8BF158C8B35008ADA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D7F8C0158C8B35008ADA4E /* Build configuration list for PBXNativeTarget "SummerPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D7F8C1158C8B35008ADA4E /* Debug */,
+				D8D7F8C2158C8B35008ADA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D7F899158C8B34008ADA4E /* Project object */;
+}
